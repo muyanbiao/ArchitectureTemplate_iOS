@@ -17,8 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 300)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
     label.text = @"Hello iOS12 under Xcode11";
+    label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     label.center = self.view.center;
 }
