@@ -1,6 +1,6 @@
 //
 //  main.m
-//  ArchitureTemplate
+//  ArchitectureTemplate
 //
 //  Created by Max on 2019/12/16.
 //  Copyright © 2019 muyanbiao. All rights reserved.

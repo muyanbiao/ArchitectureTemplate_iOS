@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ArchitureTemplate.xcodeproj">
+      location = "group:/Users/yanbiaomu/Developer/max/ArchitectureTemplate_iOS/ArchitectureTemplate.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

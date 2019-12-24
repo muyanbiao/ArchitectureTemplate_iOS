@@ -1,6 +1,6 @@
 //
-//  ArchitureTemplateTests.m
-//  ArchitureTemplateTests
+//  ArchitectureTemplateTests.m
+//  ArchitectureTemplateTests
 //
 //  Created by Max on 2019/12/16.
 //  Copyright © 2019 muyanbiao. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ArchitureTemplateTests : XCTestCase
+@interface ArchitectureTemplateTests : XCTestCase
 
 @end
 
-@implementation ArchitureTemplateTests
+@implementation ArchitectureTemplateTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

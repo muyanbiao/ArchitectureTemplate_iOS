@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12102D5420E3B9AAB7F24F33 /* Pods_ArchitureTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86DBAFC53695DFE8391DD39 /* Pods_ArchitureTemplateUITests.framework */; };
-		7C1AEE0F2B63C9A226585521 /* Pods_ArchitureTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B19E1FC0CDF5055595F32D /* Pods_ArchitureTemplate.framework */; };
-		93405C6088807B82CD2B14C9 /* Pods_ArchitureTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983A5DDD994B6871C38AD40F /* Pods_ArchitureTemplateTests.framework */; };
+		A8F5C76DEEC14EA2AEE1EF85 /* Pods_ArchitectureTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C9DCCF77D2A9FA5F555F1D /* Pods_ArchitectureTemplateUITests.framework */; };
+		CF6B1D33D39115B9578532BD /* Pods_ArchitectureTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18E0704750BF091581D5211 /* Pods_ArchitectureTemplate.framework */; };
 		DB09ABB223A7589000502F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABB123A7589000502F8C /* AppDelegate.m */; };
 		DB09ABB823A7589000502F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABB723A7589000502F8C /* ViewController.m */; };
 		DB09ABBB23A7589000502F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB09ABB923A7589000502F8C /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		DB09ABC323A7589300502F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABC223A7589300502F8C /* main.m */; };
 		DB09ABCD23A7589400502F8C /* ArchitureTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABCC23A7589400502F8C /* ArchitureTemplateTests.m */; };
 		DB09ABD823A7589400502F8C /* ArchitureTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABD723A7589400502F8C /* ArchitureTemplateUITests.m */; };
+		F0BE59A85D812940E67C0263 /* Pods_ArchitectureTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C605CA49DF7F7C847220DD3B /* Pods_ArchitectureTemplateTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029EA3ABAEB1A489C0E1B1F3 /* Pods-ArchitectureTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureTemplate.release.xcconfig"; path = "Target Support Files/Pods-ArchitectureTemplate/Pods-ArchitectureTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		10886FA1C7BD325CD8F3E681 /* Pods-ArchitectureTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectureTemplateTests/Pods-ArchitectureTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19693614EFC6194F645F9773 /* Pods-ArchitectureTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ArchitectureTemplateTests/Pods-ArchitectureTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B71AF9D2FF9A00D41FB81B8 /* Pods-ArchitureTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitureTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-ArchitureTemplateTests/Pods-ArchitureTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		3128F2A0139EDAD4C77AF118 /* Pods-ArchitureTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitureTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ArchitureTemplateTests/Pods-ArchitureTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		38B19E1FC0CDF5055595F32D /* Pods_ArchitureTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitureTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		379EEEFC17A4CB48A64C54CB /* Pods-ArchitectureTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureTemplateUITests.release.xcconfig"; path = "Target Support Files/Pods-ArchitectureTemplateUITests/Pods-ArchitectureTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3BFD849EE64C7FBD4F9EC929 /* Pods-ArchitureTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitureTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ArchitureTemplate/Pods-ArchitureTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		61C9DCCF77D2A9FA5F555F1D /* Pods_ArchitectureTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectureTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D32B79FD3FF56F34B2E7052 /* Pods-ArchitectureTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectureTemplate/Pods-ArchitectureTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		8B8ADDCA0F7FE407B7DD650C /* Pods-ArchitureTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitureTemplate.release.xcconfig"; path = "Target Support Files/Pods-ArchitureTemplate/Pods-ArchitureTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		983A5DDD994B6871C38AD40F /* Pods_ArchitureTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitureTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1310E18A3A6F78245EFC4FD /* Pods-ArchitectureTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitectureTemplateUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArchitectureTemplateUITests/Pods-ArchitectureTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B18E0704750BF091581D5211 /* Pods_ArchitectureTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectureTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BCC2D1469F2289F17AD562 /* Pods-ArchitureTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitureTemplateUITests.release.xcconfig"; path = "Target Support Files/Pods-ArchitureTemplateUITests/Pods-ArchitureTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C44B5A32587989D956181A58 /* Pods-ArchitureTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArchitureTemplateUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArchitureTemplateUITests/Pods-ArchitureTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C86DBAFC53695DFE8391DD39 /* Pods_ArchitureTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitureTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB09ABAD23A7588F00502F8C /* ArchitureTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitureTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C605CA49DF7F7C847220DD3B /* Pods_ArchitectureTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArchitectureTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB09ABAD23A7588F00502F8C /* ArchitectureTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB09ABB023A7589000502F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB09ABB123A7589000502F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DB09ABB623A7589000502F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -57,10 +63,10 @@
 		DB09ABBF23A7589300502F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB09ABC123A7589300502F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB09ABC223A7589300502F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DB09ABC823A7589400502F8C /* ArchitureTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitureTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB09ABC823A7589400502F8C /* ArchitectureTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB09ABCC23A7589400502F8C /* ArchitureTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitureTemplateTests.m; sourceTree = "<group>"; };
 		DB09ABCE23A7589400502F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB09ABD323A7589400502F8C /* ArchitureTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitureTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB09ABD323A7589400502F8C /* ArchitectureTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB09ABD723A7589400502F8C /* ArchitureTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitureTemplateUITests.m; sourceTree = "<group>"; };
 		DB09ABD923A7589400502F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1AEE0F2B63C9A226585521 /* Pods_ArchitureTemplate.framework in Frameworks */,
+				CF6B1D33D39115B9578532BD /* Pods_ArchitectureTemplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93405C6088807B82CD2B14C9 /* Pods_ArchitureTemplateTests.framework in Frameworks */,
+				F0BE59A85D812940E67C0263 /* Pods_ArchitectureTemplateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12102D5420E3B9AAB7F24F33 /* Pods_ArchitureTemplateUITests.framework in Frameworks */,
+				A8F5C76DEEC14EA2AEE1EF85 /* Pods_ArchitectureTemplateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +108,12 @@
 				1B71AF9D2FF9A00D41FB81B8 /* Pods-ArchitureTemplateTests.release.xcconfig */,
 				C44B5A32587989D956181A58 /* Pods-ArchitureTemplateUITests.debug.xcconfig */,
 				C1BCC2D1469F2289F17AD562 /* Pods-ArchitureTemplateUITests.release.xcconfig */,
+				7D32B79FD3FF56F34B2E7052 /* Pods-ArchitectureTemplate.debug.xcconfig */,
+				029EA3ABAEB1A489C0E1B1F3 /* Pods-ArchitectureTemplate.release.xcconfig */,
+				10886FA1C7BD325CD8F3E681 /* Pods-ArchitectureTemplateTests.debug.xcconfig */,
+				19693614EFC6194F645F9773 /* Pods-ArchitectureTemplateTests.release.xcconfig */,
+				B1310E18A3A6F78245EFC4FD /* Pods-ArchitectureTemplateUITests.debug.xcconfig */,
+				379EEEFC17A4CB48A64C54CB /* Pods-ArchitectureTemplateUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -109,9 +121,9 @@
 		36247B151E7DE85D875261F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				38B19E1FC0CDF5055595F32D /* Pods_ArchitureTemplate.framework */,
-				983A5DDD994B6871C38AD40F /* Pods_ArchitureTemplateTests.framework */,
-				C86DBAFC53695DFE8391DD39 /* Pods_ArchitureTemplateUITests.framework */,
+				B18E0704750BF091581D5211 /* Pods_ArchitectureTemplate.framework */,
+				C605CA49DF7F7C847220DD3B /* Pods_ArchitectureTemplateTests.framework */,
+				61C9DCCF77D2A9FA5F555F1D /* Pods_ArchitectureTemplateUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,9 +131,9 @@
 		DB09ABA423A7588F00502F8C = {
 			isa = PBXGroup;
 			children = (
-				DB09ABAF23A7588F00502F8C /* ArchitureTemplate */,
-				DB09ABCB23A7589400502F8C /* ArchitureTemplateTests */,
-				DB09ABD623A7589400502F8C /* ArchitureTemplateUITests */,
+				DB09ABAF23A7588F00502F8C /* ArchitectureTemplate */,
+				DB09ABCB23A7589400502F8C /* ArchitectureTemplateTests */,
+				DB09ABD623A7589400502F8C /* ArchitectureTemplateUITests */,
 				DB09ABAE23A7588F00502F8C /* Products */,
 				2BDB85938ABB97725BA8EDEF /* Pods */,
 				36247B151E7DE85D875261F2 /* Frameworks */,
@@ -131,14 +143,14 @@
 		DB09ABAE23A7588F00502F8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB09ABAD23A7588F00502F8C /* ArchitureTemplate.app */,
-				DB09ABC823A7589400502F8C /* ArchitureTemplateTests.xctest */,
-				DB09ABD323A7589400502F8C /* ArchitureTemplateUITests.xctest */,
+				DB09ABAD23A7588F00502F8C /* ArchitectureTemplate.app */,
+				DB09ABC823A7589400502F8C /* ArchitectureTemplateTests.xctest */,
+				DB09ABD323A7589400502F8C /* ArchitectureTemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB09ABAF23A7588F00502F8C /* ArchitureTemplate */ = {
+		DB09ABAF23A7588F00502F8C /* ArchitectureTemplate */ = {
 			isa = PBXGroup;
 			children = (
 				DB09ABB023A7589000502F8C /* AppDelegate.h */,
@@ -151,33 +163,33 @@
 				DB09ABC123A7589300502F8C /* Info.plist */,
 				DB09ABC223A7589300502F8C /* main.m */,
 			);
-			path = ArchitureTemplate;
+			path = ArchitectureTemplate;
 			sourceTree = "<group>";
 		};
-		DB09ABCB23A7589400502F8C /* ArchitureTemplateTests */ = {
+		DB09ABCB23A7589400502F8C /* ArchitectureTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
 				DB09ABCC23A7589400502F8C /* ArchitureTemplateTests.m */,
 				DB09ABCE23A7589400502F8C /* Info.plist */,
 			);
-			path = ArchitureTemplateTests;
+			path = ArchitectureTemplateTests;
 			sourceTree = "<group>";
 		};
-		DB09ABD623A7589400502F8C /* ArchitureTemplateUITests */ = {
+		DB09ABD623A7589400502F8C /* ArchitectureTemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
 				DB09ABD723A7589400502F8C /* ArchitureTemplateUITests.m */,
 				DB09ABD923A7589400502F8C /* Info.plist */,
 			);
-			path = ArchitureTemplateUITests;
+			path = ArchitectureTemplateUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB09ABAC23A7588F00502F8C /* ArchitureTemplate */ = {
+		DB09ABAC23A7588F00502F8C /* ArchitectureTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB09ABDC23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitureTemplate" */;
+			buildConfigurationList = DB09ABDC23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitectureTemplate" */;
 			buildPhases = (
 				916990CE8F8FD3C17E68B476 /* [CP] Check Pods Manifest.lock */,
 				DB09ABA923A7588F00502F8C /* Sources */,
@@ -189,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = ArchitureTemplate;
+			name = ArchitectureTemplate;
 			productName = ArchitureTemplate;
-			productReference = DB09ABAD23A7588F00502F8C /* ArchitureTemplate.app */;
+			productReference = DB09ABAD23A7588F00502F8C /* ArchitectureTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB09ABC723A7589400502F8C /* ArchitureTemplateTests */ = {
+		DB09ABC723A7589400502F8C /* ArchitectureTemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB09ABDF23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitureTemplateTests" */;
+			buildConfigurationList = DB09ABDF23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitectureTemplateTests" */;
 			buildPhases = (
 				D9DFBBBC15023F98348FDF44 /* [CP] Check Pods Manifest.lock */,
 				DB09ABC423A7589400502F8C /* Sources */,
@@ -208,14 +220,14 @@
 			dependencies = (
 				DB09ABCA23A7589400502F8C /* PBXTargetDependency */,
 			);
-			name = ArchitureTemplateTests;
+			name = ArchitectureTemplateTests;
 			productName = ArchitureTemplateTests;
-			productReference = DB09ABC823A7589400502F8C /* ArchitureTemplateTests.xctest */;
+			productReference = DB09ABC823A7589400502F8C /* ArchitectureTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB09ABD223A7589400502F8C /* ArchitureTemplateUITests */ = {
+		DB09ABD223A7589400502F8C /* ArchitectureTemplateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB09ABE223A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitureTemplateUITests" */;
+			buildConfigurationList = DB09ABE223A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitectureTemplateUITests" */;
 			buildPhases = (
 				17DED66461195F61799FDCE3 /* [CP] Check Pods Manifest.lock */,
 				DB09ABCF23A7589400502F8C /* Sources */,
@@ -227,9 +239,9 @@
 			dependencies = (
 				DB09ABD523A7589400502F8C /* PBXTargetDependency */,
 			);
-			name = ArchitureTemplateUITests;
+			name = ArchitectureTemplateUITests;
 			productName = ArchitureTemplateUITests;
-			productReference = DB09ABD323A7589400502F8C /* ArchitureTemplateUITests.xctest */;
+			productReference = DB09ABD323A7589400502F8C /* ArchitectureTemplateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB09ABA823A7588F00502F8C /* Build configuration list for PBXProject "ArchitureTemplate" */;
+			buildConfigurationList = DB09ABA823A7588F00502F8C /* Build configuration list for PBXProject "ArchitectureTemplate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,9 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB09ABAC23A7588F00502F8C /* ArchitureTemplate */,
-				DB09ABC723A7589400502F8C /* ArchitureTemplateTests */,
-				DB09ABD223A7589400502F8C /* ArchitureTemplateUITests */,
+				DB09ABAC23A7588F00502F8C /* ArchitectureTemplate */,
+				DB09ABC723A7589400502F8C /* ArchitectureTemplateTests */,
+				DB09ABD223A7589400502F8C /* ArchitectureTemplateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,7 +329,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArchitureTemplateUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ArchitectureTemplateUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -339,7 +351,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArchitureTemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ArchitectureTemplate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -361,7 +373,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArchitureTemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ArchitectureTemplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -374,15 +386,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ArchitureTemplate/Pods-ArchitureTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ArchitectureTemplate/Pods-ArchitectureTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ArchitureTemplate/Pods-ArchitureTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ArchitectureTemplate/Pods-ArchitectureTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchitureTemplate/Pods-ArchitureTemplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArchitectureTemplate/Pods-ArchitectureTemplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,12 +431,12 @@
 /* Begin PBXTargetDependency section */
 		DB09ABCA23A7589400502F8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB09ABAC23A7588F00502F8C /* ArchitureTemplate */;
+			target = DB09ABAC23A7588F00502F8C /* ArchitectureTemplate */;
 			targetProxy = DB09ABC923A7589400502F8C /* PBXContainerItemProxy */;
 		};
 		DB09ABD523A7589400502F8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB09ABAC23A7588F00502F8C /* ArchitureTemplate */;
+			target = DB09ABAC23A7588F00502F8C /* ArchitectureTemplate */;
 			targetProxy = DB09ABD423A7589400502F8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -561,19 +573,19 @@
 		};
 		DB09ABDD23A7589400502F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BFD849EE64C7FBD4F9EC929 /* Pods-ArchitureTemplate.debug.xcconfig */;
+			baseConfigurationReference = 7D32B79FD3FF56F34B2E7052 /* Pods-ArchitectureTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitureTemplate/Info.plist;
+				INFOPLIST_FILE = ArchitectureTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitureTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitectureTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -581,19 +593,19 @@
 		};
 		DB09ABDE23A7589400502F8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B8ADDCA0F7FE407B7DD650C /* Pods-ArchitureTemplate.release.xcconfig */;
+			baseConfigurationReference = 029EA3ABAEB1A489C0E1B1F3 /* Pods-ArchitectureTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitureTemplate/Info.plist;
+				INFOPLIST_FILE = ArchitectureTemplate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitureTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitectureTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -601,88 +613,88 @@
 		};
 		DB09ABE023A7589400502F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3128F2A0139EDAD4C77AF118 /* Pods-ArchitureTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 10886FA1C7BD325CD8F3E681 /* Pods-ArchitectureTemplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitureTemplateTests/Info.plist;
+				INFOPLIST_FILE = ArchitectureTemplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitureTemplateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitectureTemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitureTemplate.app/ArchitureTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitectureTemplate.app/ArchitectureTemplate";
 			};
 			name = Debug;
 		};
 		DB09ABE123A7589400502F8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B71AF9D2FF9A00D41FB81B8 /* Pods-ArchitureTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 19693614EFC6194F645F9773 /* Pods-ArchitectureTemplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitureTemplateTests/Info.plist;
+				INFOPLIST_FILE = ArchitectureTemplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitureTemplateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitectureTemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitureTemplate.app/ArchitureTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitectureTemplate.app/ArchitectureTemplate";
 			};
 			name = Release;
 		};
 		DB09ABE323A7589400502F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44B5A32587989D956181A58 /* Pods-ArchitureTemplateUITests.debug.xcconfig */;
+			baseConfigurationReference = B1310E18A3A6F78245EFC4FD /* Pods-ArchitectureTemplateUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitureTemplateUITests/Info.plist;
+				INFOPLIST_FILE = ArchitectureTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitureTemplateUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitectureTemplateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ArchitureTemplate;
+				TEST_TARGET_NAME = ArchitectureTemplate;
 			};
 			name = Debug;
 		};
 		DB09ABE423A7589400502F8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1BCC2D1469F2289F17AD562 /* Pods-ArchitureTemplateUITests.release.xcconfig */;
+			baseConfigurationReference = 379EEEFC17A4CB48A64C54CB /* Pods-ArchitectureTemplateUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitureTemplateUITests/Info.plist;
+				INFOPLIST_FILE = ArchitectureTemplateUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitureTemplateUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanbiaomu.ArchitectureTemplateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ArchitureTemplate;
+				TEST_TARGET_NAME = ArchitectureTemplate;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB09ABA823A7588F00502F8C /* Build configuration list for PBXProject "ArchitureTemplate" */ = {
+		DB09ABA823A7588F00502F8C /* Build configuration list for PBXProject "ArchitectureTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB09ABDA23A7589400502F8C /* Debug */,
@@ -691,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB09ABDC23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitureTemplate" */ = {
+		DB09ABDC23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitectureTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB09ABDD23A7589400502F8C /* Debug */,
@@ -700,7 +712,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB09ABDF23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitureTemplateTests" */ = {
+		DB09ABDF23A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitectureTemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB09ABE023A7589400502F8C /* Debug */,
@@ -709,7 +721,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB09ABE223A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitureTemplateUITests" */ = {
+		DB09ABE223A7589400502F8C /* Build configuration list for PBXNativeTarget "ArchitectureTemplateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB09ABE323A7589400502F8C /* Debug */,

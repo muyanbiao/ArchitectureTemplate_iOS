@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '10.0'
 
-target 'ArchitureTemplate' do
+target 'ArchitectureTemplate' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
@@ -13,14 +13,14 @@ target 'ArchitureTemplate' do
   
   pod 'YTKNetwork'
 
-  # Pods for ArchitureTemplate
+  # Pods for ArchitectureTemplate
 
-  target 'ArchitureTemplateTests' do
+  target 'ArchitectureTemplateTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'ArchitureTemplateUITests' do
+  target 'ArchitectureTemplateUITests' do
     inherit! :search_paths
     # Pods for testing
   end
