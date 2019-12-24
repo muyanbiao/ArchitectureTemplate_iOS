@@ -10,6 +10,8 @@ target 'ArchitureTemplate' do
   pod 'AFNetworking', '~> 3.0'
   
   pod 'Alamofire', '~> 5.0.0-rc.3'
+  
+  pod 'YTKNetwork'
 
   # Pods for ArchitureTemplate
 
