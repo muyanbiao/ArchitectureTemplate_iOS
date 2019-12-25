@@ -17,6 +17,7 @@
 		DB09ABC323A7589300502F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABC223A7589300502F8C /* main.m */; };
 		DB09ABCD23A7589400502F8C /* ArchitureTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABCC23A7589400502F8C /* ArchitureTemplateTests.m */; };
 		DB09ABD823A7589400502F8C /* ArchitureTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09ABD723A7589400502F8C /* ArchitureTemplateUITests.m */; };
+		DBAD815323B3605B0003AE22 /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAD815223B3605B0003AE22 /* Screen.m */; };
 		F0BE59A85D812940E67C0263 /* Pods_ArchitectureTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C605CA49DF7F7C847220DD3B /* Pods_ArchitectureTemplateTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,8 @@
 		DB09ABD323A7589400502F8C /* ArchitectureTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB09ABD723A7589400502F8C /* ArchitureTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitureTemplateUITests.m; sourceTree = "<group>"; };
 		DB09ABD923A7589400502F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAD815123B3605B0003AE22 /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		DBAD815223B3605B0003AE22 /* Screen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 		DB09ABAF23A7588F00502F8C /* ArchitectureTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DBAD815023B360010003AE22 /* SystemInfo */,
+				DBAD814F23B35E4B0003AE22 /* Resources */,
 				DBAD814E23B35E080003AE22 /* AppMain */,
 			);
 			path = ArchitectureTemplate;
@@ -184,12 +189,28 @@
 				DB09ABB623A7589000502F8C /* ViewController.h */,
 				DB09ABB723A7589000502F8C /* ViewController.m */,
 				DB09ABB923A7589000502F8C /* Main.storyboard */,
-				DB09ABBC23A7589300502F8C /* Assets.xcassets */,
 				DB09ABBE23A7589300502F8C /* LaunchScreen.storyboard */,
 				DB09ABC123A7589300502F8C /* Info.plist */,
 				DB09ABC223A7589300502F8C /* main.m */,
 			);
 			path = AppMain;
+			sourceTree = "<group>";
+		};
+		DBAD814F23B35E4B0003AE22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB09ABBC23A7589300502F8C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBAD815023B360010003AE22 /* SystemInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD815123B3605B0003AE22 /* Screen.h */,
+				DBAD815223B3605B0003AE22 /* Screen.m */,
+			);
+			path = SystemInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +435,7 @@
 			files = (
 				DB09ABB823A7589000502F8C /* ViewController.m in Sources */,
 				DB09ABB223A7589000502F8C /* AppDelegate.m in Sources */,
+				DBAD815323B3605B0003AE22 /* Screen.m in Sources */,
 				DB09ABC323A7589300502F8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +608,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitectureTemplate/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ArchitectureTemplate/AppMain/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -606,7 +628,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95MT857CBA;
-				INFOPLIST_FILE = ArchitectureTemplate/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ArchitectureTemplate/AppMain/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
