@@ -153,15 +153,7 @@
 		DB09ABAF23A7588F00502F8C /* ArchitectureTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				DB09ABB023A7589000502F8C /* AppDelegate.h */,
-				DB09ABB123A7589000502F8C /* AppDelegate.m */,
-				DB09ABB623A7589000502F8C /* ViewController.h */,
-				DB09ABB723A7589000502F8C /* ViewController.m */,
-				DB09ABB923A7589000502F8C /* Main.storyboard */,
-				DB09ABBC23A7589300502F8C /* Assets.xcassets */,
-				DB09ABBE23A7589300502F8C /* LaunchScreen.storyboard */,
-				DB09ABC123A7589300502F8C /* Info.plist */,
-				DB09ABC223A7589300502F8C /* main.m */,
+				DBAD814E23B35E080003AE22 /* AppMain */,
 			);
 			path = ArchitectureTemplate;
 			sourceTree = "<group>";
@@ -182,6 +174,22 @@
 				DB09ABD923A7589400502F8C /* Info.plist */,
 			);
 			path = ArchitectureTemplateUITests;
+			sourceTree = "<group>";
+		};
+		DBAD814E23B35E080003AE22 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				DB09ABB023A7589000502F8C /* AppDelegate.h */,
+				DB09ABB123A7589000502F8C /* AppDelegate.m */,
+				DB09ABB623A7589000502F8C /* ViewController.h */,
+				DB09ABB723A7589000502F8C /* ViewController.m */,
+				DB09ABB923A7589000502F8C /* Main.storyboard */,
+				DB09ABBC23A7589300502F8C /* Assets.xcassets */,
+				DB09ABBE23A7589300502F8C /* LaunchScreen.storyboard */,
+				DB09ABC123A7589300502F8C /* Info.plist */,
+				DB09ABC223A7589300502F8C /* main.m */,
+			);
+			path = AppMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
