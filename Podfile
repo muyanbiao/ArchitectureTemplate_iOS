@@ -11,7 +11,9 @@ target 'ArchitectureTemplate' do
   
   pod 'Alamofire', '~> 5.0.0-rc.3'
   
-  pod 'YTKNetwork'
+  pod 'YTKNetwork', '~> 2.1.4'
+  
+  pod 'Masonry', '~> 1.1.0'
 
   # Pods for ArchitectureTemplate
 

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Screen.h"
+#import <Masonry/Masonry.h>
 
 #pragma mark - constant
 static NSString *const kCellIdentifier = @"cell";
@@ -29,14 +30,20 @@ static NSString *const kCellIdentifier = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view addSubview:self.label];
+    // MARK: add subview
     [self.view addSubview:self.tableView];
+    [self.view addSubview:self.label];
+    [self.view addSubview:self.button];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.label.center = self.view.center;
     
+    // MARK: update subview
+    self.label.center = self.view.center;
+    [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.view.mas_left);
+    }];
 }
 
 #pragma mark - UITableViewDelegate
@@ -55,14 +62,18 @@ static NSString *const kCellIdentifier = @"cell";
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+}
+
 #pragma mark - CustomDelegate
 - (void)customDelegateMethod {
     
 }
 
 #pragma mark - event response
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+- (void)didTappedButton:(UIButton *)button {
+    self.label.text = @"Button tapped";
 }
 
 #pragma mark - private methods
@@ -82,7 +93,11 @@ static NSString *const kCellIdentifier = @"cell";
 
 - (UIButton *)button {
     if (_button == nil) {
-        _button = [[UIButton alloc] init];
+        _button = [[UIButton alloc] initWithFrame:CGRectMake(10, 300, 100, 50)];
+        _button.titleLabel.text = @"Button";
+        _button.titleLabel.textColor = [UIColor whiteColor];
+        _button.backgroundColor = [UIColor blueColor];
+        [_button addTarget:self action:@selector(didTappedButton:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _button;
 }
