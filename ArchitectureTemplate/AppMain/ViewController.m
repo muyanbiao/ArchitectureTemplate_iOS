@@ -41,8 +41,9 @@ static NSString *const kCellIdentifier = @"cell";
     
     // MARK: update subview
     self.label.center = self.view.center;
-    [self.button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.view.mas_left);
+    [self.button mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.top.mas_equalTo(self.label.mas_bottom);
     }];
 }
 
@@ -63,7 +64,7 @@ static NSString *const kCellIdentifier = @"cell";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    self.label.text = [NSString stringWithFormat:@"cell %ld clicked", indexPath.row];
 }
 
 #pragma mark - CustomDelegate
@@ -93,10 +94,11 @@ static NSString *const kCellIdentifier = @"cell";
 
 - (UIButton *)button {
     if (_button == nil) {
-        _button = [[UIButton alloc] initWithFrame:CGRectMake(10, 300, 100, 50)];
-        _button.titleLabel.text = @"Button";
-        _button.titleLabel.textColor = [UIColor whiteColor];
+        _button = [[UIButton alloc] init];
+        _button.contentEdgeInsets = UIEdgeInsetsMake(5, 10, 5, 10);
         _button.backgroundColor = [UIColor blueColor];
+        [_button setTitle:@"Button" forState:UIControlStateNormal];
+        [_button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_button addTarget:self action:@selector(didTappedButton:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _button;
@@ -106,7 +108,7 @@ static NSString *const kCellIdentifier = @"cell";
     if (_tableView == nil) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, Screen.width, Screen.height)];
         _tableView.delegate = self;
-        _tableView.dataSource = self;\
+        _tableView.dataSource = self;
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellIdentifier];
     }
     return _tableView;
