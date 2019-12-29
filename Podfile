@@ -14,6 +14,8 @@ target 'ArchitectureTemplate' do
   pod 'YTKNetwork', '~> 2.1.4'
   
   pod 'Masonry', '~> 1.1.0'
+  
+  pod 'ReactiveCocoa', '~> 9.0'
 
   # Pods for ArchitectureTemplate
 
